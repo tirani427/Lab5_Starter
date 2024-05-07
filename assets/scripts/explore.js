@@ -118,7 +118,7 @@ inputForm.onsubmit = (event) => {
 };
 
 
-input.onsubmit = (event) => {
+/*input.onsubmit = (event) => {
   event.preventDefault();
 
   const utterThis = new SpeechSynthesisUtterance(speak_text);
@@ -131,4 +131,4 @@ input.onsubmit = (event) => {
   }
   synth.speak(utterThis);
   inputTxt.blur();
-};
+};*/
